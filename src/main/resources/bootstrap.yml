@@ -1,0 +1,21 @@
+app:
+  env: ${APP_ENV:dev}
+  name: es-demo
+
+spring:
+  profiles:
+    active:
+      - static
+  application:
+    name: ${app.name}
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      username: nacos
+      password: nacos
+      config:
+        file-extension: yaml
+        server-addr: 127.0.0.1:8848
+        namespace: a963dcaa-7177-4ce8-bb65-c7b0c5101cc4
+        encode: UTF-8
+        refresh-enabled: true
