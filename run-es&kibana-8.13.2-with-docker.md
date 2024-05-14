@@ -25,4 +25,5 @@ access kibana:http://127.0.0.1:5601/
 kibana enrollment token：eyJ2ZXIiOiI4LjEzLjIiLCJhZHIiOlsiMTcyLjE5LjAuMjo5MjAwIl0sImZnciI6IjhlMjBhYWI0NWVlNGUwODJhZGZiZGVjZjc0Y2M3OTA3ODI4ZjA3MTM4MTU4MGU0MWFiOGE1NDljNTIwNTJiMzUiLCJrZXkiOiJWSWJ4OVk0QnA3cms2dVE0Ri16QjpfYXVzSHhLbFMwNlNMcTNNOWxOb2hRIn0=
 
 kibana get verification-code：bin/kibana-verification-code
+
 ![img.png](images/img.png)
